@@ -20,16 +20,18 @@ body{
     margin: 0;
     padding: 0;
 }
-
+.section1{
+    background: #2B2B2B;
+}
 .header{
-   padding-top: 20px;
-   padding-left: 50px;
-   padding-right: 50px;
-   background: #2B2B2B;
+    padding-top: 20px;
+   max-width: 1180px;
+   margin-inline: auto;
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
+
 .menu{
     display: flex;
     align-items: center;
@@ -67,13 +69,14 @@ body{
 }
 
 .section2{
-    padding-left: 125px;
-    padding-right: 125px;
-    padding-top: 80px;
+   
     background: #2B2B2B;
 
 }
 .container{
+    padding-top: 80px;
+    max-width: 1180px;
+    margin-inline: auto;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -200,13 +203,14 @@ body{
     
 }
 .section3{
-    padding-left: 125px;
-    padding-right: 125px;
-    padding-top: 80px;
     background: #2B2B2B;
 }
 .trending{
-    margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        max-width: 1180px;
+        padding-top: 80px;
+        margin-inline: auto;
 }
 .trending h3{
     color: white;
@@ -230,19 +234,48 @@ body{
 }
 .boxes{
     display: flex;
-    justify-content: space-between;
+    max-width: 1180px;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 30px;
+    gap: 30px
+    ;
+}
+.box1 img{
+    width: 100%;
+}
+.box2 img {
+    width: 100%;
+}
+.box3 img{
+    width: 100%;
+}
+.box1 {
+    width: 100%;
+}
+.box2  {
+    width: 100%;
+}
+.box3 {
+    width: 100%;
+}
+
+.fox img{
+    width: 24px;
+    height: 24px;
 }
 .animals{
     margin-top: 15px;
     display: flex;
     align-items: center;
-    gap: 15px
-    ;
+    gap:15px;
 }
 .number{
-    width:100px;
-    height:100px;
-    gap: 10px;
+  width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 20px;
     background: #A259FF;
 }
@@ -285,12 +318,12 @@ body{
     ;
 }
 .section4{
-    padding-left: 125px;
-    padding-right: 125px;
-    padding-top: 150px;
+    padding-top: 160px;
     background: #2B2B2B;
 }
 .creators{
+    max-width: 1180px;
+    margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -336,19 +369,25 @@ body{
         margin-top: 25px;
 }
 .cards{
-    margin-top: 80px;
+    max-width: 1180px;
+    margin-inline: auto;
+    margin-top: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 30px
+    ;
 }
 .cards2{
-    margin-top: 40px;
+    max-width: 1180px;
+    margin-inline: auto;
+    margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    gap: 30px
+    ;
     align-items: center;
 }
 .card1{
-    width:240px;
+    width: 100%;
     height:238px; 
     gap: 20px;
     border-radius: 20px;
@@ -368,7 +407,7 @@ body{
     background: #2B2B2B;
     position: relative;
     left: 20px;
-    top: 20px;
+    top: 25px;
 }
 .pin p{
     font-family:"space";
@@ -381,11 +420,11 @@ body{
     margin: 0;
     position: absolute;
     left: 10px;
-    top: 2px;
+    top: 4px;
     
 }
 .real{
-    margin-left: 60px;
+    margin-left: 80px;
 }
 .keep h5{
     font-family:"regular";
@@ -396,7 +435,7 @@ body{
     font-weight: 600;
     line-height: 31px;
     letter-spacing: 2px;
-    margin-left: 50px;
+    text-align: center;
     margin-bottom: 5px;
 }
 .span1{
@@ -407,7 +446,7 @@ body{
     letter-spacing: 1px;
     text-align: right;
     color: #858584;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .span2{
     font-family: "regular";
@@ -444,12 +483,13 @@ body{
 }
 
 .section5{
-    padding-left: 125px;
-    padding-right: 125px;
     padding-top: 150px;
     background: #2B2B2B;
 }
-
+.browse{
+    max-width: 1180px;
+    margin-inline: auto;
+}
 .browse h3{
     font-family: "regular";
     font-size: 38px;
@@ -467,17 +507,19 @@ body{
 .first-cat{
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    gap: 30px
+    ;
 }
 .sec-cat{
     margin-top: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 30px
+    ;
 }
 .art{
-    width: 240px;
-    height:316px;
+    width: 100%;
+    height:346px;
     background-size: cover;
     border-radius: 20px;
     border: none;
@@ -485,6 +527,7 @@ body{
     position: relative;
 }
 .art-img{
+    width: 100%;
     filter: blur(5px);
 }
 .art h5{
@@ -507,13 +550,13 @@ body{
     left: 30%;
 }
 .section6{
-    padding-left: 125px;
-    padding-right: 125px;
     padding-top: 150px;
-    padding-bottom: 80px;
     background: #2B2B2B;
+    padding-bottom: 160px;
 }
 .discover{
+    max-width: 1180px;
+    margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -559,13 +602,17 @@ body{
     margin-right: 30px;
 }
 .explore{
+    max-width: 1180px;
+    margin-inline: auto;
+    gap: 30px
+    ;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .galaxy{ 
-    width:330px;
-    height:469px;
+    width: 100%;
+    height:519px;
     border-radius: 20px;
     background: #3B3B3B;
 }
@@ -581,9 +628,15 @@ body{
     margin-top: 10px;
     color: white;
 }
+.galaxy img{
+    width: 100%;
+}
+.galaxy2 img{
+    width: 100%;
+}
 .galaxy2{ 
-    width:330px;
-    height:469px;
+    width:100%;
+    height:519px;
     border-radius: 20px;
     background: #3B3B3B;
 }
@@ -598,6 +651,10 @@ body{
     margin-left: 20px;
     margin-top: 10px;
     color: white;
+}
+.moon img{
+    width: 24px;
+    height: 24px;
 }
 .moon{
     display: flex;
@@ -675,16 +732,17 @@ body{
     padding-top: 10px;
 }
 .mush-back{
-    background-image: url(./img/mush-background.png);
+    background-image: url(./img/purp-mushroom.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 125px;
-    padding-right: 125px;
-    padding-bottom: 50px;
+    background-size: 100%;
+    margin-inline: auto;
+    padding-bottom: 60px;
 
 }
+
 .left-shroom{
-    padding-top: 60%;
+    padding-top: 40%;
+    padding-left: 5%;
 }
 .shroomie{
     width:231px;
@@ -708,6 +766,7 @@ body{
 .mush-back{
     display: flex;
     justify-content: space-between;
+
 }
 .mush-back h4{
     font-family:"regular";
@@ -740,10 +799,11 @@ body{
 }
 .right-shroom{
     width:395px;
-    height: 247px;
+    height: 187px;
+    margin-inline: auto;
     gap: 10px;
     border-radius: 40px;   
-    margin-top: 70%;
+    margin-top: 50%;
     background: #3B3B3B80;
     display: flex;
     align-items: center;
@@ -783,9 +843,11 @@ body{
     color: white;
 }
 .section8{
-    padding-left: 125px;
-    padding-right: 125px;
     background: #2B2B2B;
+}
+.how{
+    max-width: 1180px;
+    margin-inline:auto;
 }
 .how h5{
     font-family:"regular";
@@ -816,17 +878,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1180px;
+    margin-inline: auto;
+    gap: 30px
+    ;
 }
 .frame{
-    width:330px;
-    height: 439px;
+    width: 100%;
+    height: 420px;
     gap: 20px;
     border-radius: 20px;   
     background: #3B3B3B;
     margin-top: 30px;
 }
 .frame img{
-    margin-left: 10%;
+    margin-left: 15%;
 }
 .frame h5{
     font-family:"regular";
@@ -845,13 +911,13 @@ body{
     line-height: 22px;
     letter-spacing: 1px;
     text-align: center;
+    
     color: white;
     margin: 0;
     padding-top: 15px;
     
 }
 .visible2{
-    width: 310px;
     height: 66px;
     font-family: "regular";
     font-size: 16px;
@@ -863,7 +929,6 @@ body{
     
 }
 .visible3{
-    width: 280px;
     height: 66px;
     font-family: "regular";
     font-size: 16px;
@@ -885,19 +950,19 @@ body{
 }
 
 .section9{
-    padding-left: 125px;
-    padding-right: 125px;
     padding-top: 50px;
     padding-bottom: 70px;
     
     background: #2B2B2B;
 }
 .digest{
+    max-width: 1180px;
+    margin-inline: auto;
     padding-bottom: 40px;
     background: #3B3B3B;
     border-radius: 20px;
     display: flex;
-    justify-content: space-between;
+    gap: 80px;
     align-items: center;
 }
 .astro{
@@ -971,13 +1036,13 @@ body{
     background: #3B3B3B;
 }
 .footer{
-    padding-left: 130px;
-    padding-right: 130px;
+    max-width: 1180px;
+    margin-inline: auto;
     padding-bottom: 50px;
     padding-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+   justify-content: space-between;
 }
 .left-foot p{
     font-family:"regular";
@@ -1085,8 +1150,8 @@ body{
     right: 0%;
 }
 .last{
-    padding-left: 130px;
-    padding-right: 130px;
+        margin-inline:auto;
+        max-width: 1180px;
     padding-bottom: 50px;
 }
 .last hr{
@@ -1136,11 +1201,14 @@ body{
 
 @media screen and (min-width:768px) and (max-width: 1024px) {
     .header{
+        max-width: 924px;
+        margin-inline: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         padding-top: 0;
         position: relative;
+        margin-inline: auto;
     }
     .burger-menu{
         display: flex;
@@ -1183,13 +1251,19 @@ body{
         display: flex;
     }
         .section2{
-            padding-left: 60px;
-            padding-right: 60px;
-        }
+            background: #2B2B2B;
+    }
     .container{
-        display: flex;
+                display: flex;
         align-items: center;
-        gap: 20px;
+       gap: 30px
+       ;
+        
+
+    }
+    .hero-text{
+        max-width: 924px;
+        margin-inline: auto;
     }
     .hero-text h1{
         width: 330px;
@@ -1237,7 +1311,8 @@ body{
         
     }
     .box{
-        width:330px;
+        margin-inline: auto;
+        max-width: 924px;
         height:330px;
         position: relative;
     }
@@ -1280,11 +1355,15 @@ body{
         
     }
     .section3{
-        padding-left: 60px;
-        padding-right: 60px;
         padding-top: 10px;
     }
+    .trending{
+        max-width: 824px;
+        margin-inline: auto;
+    }
     .boxes{
+        max-width: 824px;
+        margin-inline: auto;
         display: flex;
         align-items: center;
         gap: 20px
@@ -1294,9 +1373,17 @@ body{
     .box2{
         display: none;
     }
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box3 img{
+        width: 100%;
+    }
     .box1 img{
-        width: 330px;
-        height: 330px;
+       width: 100%;
         border-radius: 20px;
     }
     .animals img{
@@ -1309,8 +1396,12 @@ body{
         height: 24px;
     }
     .section4{
-        padding-left: 60px;
-        padding-right: 60px;
+        background: #2B2B2B;
+        padding-top: 80px;
+    }
+    .creators{
+        max-width: 824px;
+        margin-inline: auto;
     }
     .creators h3{
         font-family: "regular";
@@ -1349,6 +1440,8 @@ body{
         display: none;
     }
     .fake-cards{
+        max-width: 824px;
+        margin-inline: auto;
         display: flex;
         align-items: center;
         gap: 30px
@@ -1356,7 +1449,7 @@ body{
         margin-top: 25px;
     }
     .card3{
-        width:330px;
+        width: 100%;
         height: 87px;
         gap: 20px;
         border-radius: 20px;
@@ -1399,14 +1492,19 @@ body{
     }
 
     .section5{
-        padding-top: 70px;
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-top: 80px;
+    }
+    .browse{
+        max-width: 824px;
+        margin-inline: auto;
+    }
+    .categories{
+            max-width: 824px;
+        margin-inline: auto;
     }
     .first-cat {
         display: flex;
         align-items: center;
-        justify-content: space-between;
         gap: 50px
         ;
         margin-top: 50px;
@@ -1415,8 +1513,8 @@ body{
         width: 100%;
     }
     .art{
-        width: 150px;
-        height:185px;
+        width: 100%;
+        height:215px;
         border-radius: 20px;
     }
     .art h5{
@@ -1431,8 +1529,8 @@ body{
         width: 80px;
         height: 80px;
         position: absolute;
-        top: 10%;
-        left: 20%;
+        top: 20%;
+        left: 25%;
     }
     .sec-cat{
         display: flex;
@@ -1450,26 +1548,31 @@ body{
     }
 
     .section6{
-        padding-left: 60px;
-        padding-right: 60px;
+       background: #2B2B2B;
+    }
+    .discover{
+        max-width: 824px;
+        margin-inline: auto;
     }
     .explore{
+        max-width: 824px;
+        margin-inline: auto;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 20px
+        gap: 30px
         ;
     }
     .galaxy2{
         display: none;
     }
     .galaxy{
-        width:310px;
-        height: 449px;
+        width:100%;
+        height: 529px;
         border-radius: 20px; 
     }
     .galaxy img{
-        width:310px;
+        width:100%
+        ;
     }
     .galaxy h5{
         font-family:"regular";
@@ -1579,9 +1682,11 @@ body{
 
 
     .section8{
-        padding-left: 60px;
-        padding-right: 60px;
         padding-top: 60px;
+    }
+    .how{
+        max-width: 824px;
+        margin-inline: auto;
     }
     .how h5{
         font-family: "regular";
@@ -1599,14 +1704,15 @@ body{
         text-align: left;
     }
     .frames{
+        max-width: 824px;
+        margin-inline: auto;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 20px
+        gap: 30px
         ;
     }
     .frame{
-        width:210px;
+        width:100%;
         height:320px;
         gap: 20px;
         border-radius: 20px;        
@@ -1615,6 +1721,7 @@ body{
         width: 160px;
         height: 160px;
         margin-top: 10px;
+        margin-left: 18%;
     }
     .frame h5{
         font-family: "regular";
@@ -1622,6 +1729,7 @@ body{
         font-weight: 600;
         line-height: 22.4px;
         text-align: center;
+        
     }
     .visible{
         display: none;
@@ -1636,7 +1744,7 @@ body{
     font-weight: 400;
     line-height: 16.8px;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 40px;
    }
    .visible2{
     display: none;
@@ -1651,7 +1759,7 @@ body{
     font-weight: 400;
     line-height: 16.8px;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 40px;
    }
    .visible3{
     display: none;
@@ -1666,17 +1774,18 @@ body{
     font-weight: 400;
     line-height: 16.8px;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 40px;
    }
 
     .section9{
-        padding-left: 60px;
-        padding-right: 60px;
         padding-top: 100px;
     }
     .digest{
+        max-width: 824px;
+        margin-inline: auto;
         display: flex;
-        justify-content: space-between;
+       align-items: center;
+       gap: 30px;
     }
     .astro{
         margin-left: 30px;
@@ -1739,8 +1848,8 @@ body{
         }
 
         .footer{
-            padding-left: 60px;
-            padding-right: 60px;
+            max-width: 824px;
+            margin-inline: auto;
             display: flex;
             flex-direction: column;
             align-items: start;
@@ -1751,11 +1860,10 @@ body{
             padding-top: 20px;
         }
         .last{
-            padding-left: 60px;
-            padding-right: 60px;
+            max-width: 824px;
+            margin-inline: auto;
         }
         .last hr{
-            width: 690px;
             height: 0px;
             border: 1px 0px 0px 0px;
             
@@ -1764,6 +1872,8 @@ body{
 @media screen and (max-width:768px){
 
     .header{
+        max-width: 350px;
+        margin-inline: auto;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1813,11 +1923,11 @@ body{
 
 
     .section2{
-        padding-left: 20px;
-        padding-right: 20px;
         padding-top: 50px;
     }
     .container{
+        max-width: 330px;
+        margin-inline: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1904,20 +2014,16 @@ body{
         
     }
     .section3{
-        padding-left: 20px;
-        padding-right: 20px;
         padding-top: 5px;
     }
         .trending{
+            max-width: 330px;
+            margin-inline: auto;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
             margin-top: 50px;
         }
     .trending h3{
-        
-       margin-right: 70px;
         font-family: "regular";
         font-size: 28px;
         font-weight: 600;
@@ -1925,7 +2031,6 @@ body{
         text-align: left;
     }
     .trending p{
-        margin-left: 4%;
         font-family:"light";
         font-size: 16px;
         font-weight: 400;
@@ -1940,6 +2045,8 @@ body{
         display: none;
     }
     .boxes{
+        max-width: 330px;
+        margin-inline: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1947,8 +2054,6 @@ body{
         margin-top: 50px;
     }
     .section4{
-        padding-left: 20px;
-        padding-right: 20px;
         padding-top: 50px;
     }
    .cards{
@@ -1961,16 +2066,17 @@ body{
     display: none;
    }
    .fake-cards2{
+    max-width: 330px;
+    margin-inline: auto;
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
     gap: 20px;
    }
    .creators{
+    max-width: 330px;
+    margin-inline: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
    }
    .creators h3{
@@ -1979,7 +2085,6 @@ body{
     font-weight: 600;
     line-height: 39.2px;
     text-align: left;
-    margin-left:20px ;
     
    }
    .creators p{
@@ -1988,12 +2093,12 @@ body{
     font-weight: 400;
     line-height: 22.4px;
     text-align: left;
-    margin-left: 20px;
+    
     
    }
    
     .card3{
-        width:315px;
+        width:100%;
         height: 100px;
         gap: 20px;
         border-radius: 20px;
@@ -2053,18 +2158,18 @@ body{
         margin-top: 50px;  
     }
         .section5{
-            padding-left: 20px;
-            padding-right: 20px;
             padding-top: 80px;
+        }
+        .browse{
+            max-width: 330px;
+            margin-inline: auto;
         }
         .browse h3{
             font-family: "regular";
             font-size: 28px;
             font-weight: 600;
             line-height: 39.2px;
-            text-align: left;
-            margin-left: 20px;
-            
+            text-align: left;            
         }
         .art{
             width: 147.5px;
@@ -2092,22 +2197,27 @@ body{
         }
         
         .first-cat{
+
             display: none;
         }
         .sec-cat{
             display: none;
         }
         .fake-cat{
+            max-width: 330px;
+            margin-inline: auto;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: 30px;
-            gap: 25px;
+            margin-top: 20px;
+            gap: 20px;
         }
         .section6{
-            padding-left: 20px;
-            padding-right: 20px;
             padding-top: 50px;
+        }
+        .discover{
+            max-width: 330px;
+            margin-inline: auto;
         }
         .discover button{
             display: none;
@@ -2127,6 +2237,8 @@ body{
             text-align: left;
         }
         .explore{
+            max-width: 330px;
+            margin-inline: auto;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -2176,13 +2288,13 @@ body{
             
         }
         .left-shroom{
-            padding-top: 0;
-            margin-top: 50px;
-            padding-top: 0;
+           max-width: 330px;
+            margin-inline: auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
             gap: 30px;
+            padding-left: 0;
         }
         .shroomie{
             width: 151px;
@@ -2198,12 +2310,15 @@ body{
             text-align: left;
             
         }
+        .clock{
+            gap: 0;
+        }
             .right-shroom{
                 display: none;
             }
             .fake-ends{
                 display: block;
-                width:345px;
+                width:335px;
                 height:147px;
                 gap: 10px;
                 border-radius: 20px;
@@ -2230,6 +2345,8 @@ body{
                 
             }
             .mush-back button{
+                max-width: 330px;
+                margin-inline: auto;
                 padding-left: 20px;
                 margin-top: 20px;
                 width:345px;
@@ -2243,8 +2360,6 @@ body{
                 font-weight: 600;
                 line-height: 22.4px;
                 text-align: center;
-                
-                
             }
             .fake-ends h3{
                 margin: 0;
@@ -2259,9 +2374,11 @@ body{
                 
             }
             .section8{
-                padding-left: 20px;
-                padding-right: 20px;
                 padding-top: 40px;
+            }
+            .how{
+                max-width: 330px;
+                margin-inline: auto;
             }
             .how h5{
                 font-family: "regular";
@@ -2278,21 +2395,27 @@ body{
                 text-align: left;
             }
             .frames{
+                max-width: 330px;
+                margin-inline: auto;
                 display: flex;
                 flex-direction: column;
+                gap: 0;
                 align-items: center;
                 justify-content: center;
             }
             .frame{
-                width:315px;
+                width:100%;
                 height:157px;
                 border-radius: 20px;
                 display: flex;
+                margin-top: 20px
+                ;
             }
             .frame img{
                 width: 100px;
                 height: 100px; 
-                margin-top: 10%;               
+                margin-top: 10%;    
+                margin-left: 20px;           
             }
             .frame h5{
                 font-family:"regular";
@@ -2308,6 +2431,7 @@ body{
                 display: none;
             }
             .hidden-p {
+                width: 140px;
                 display: flex;
                 font-family: "light";
                 font-size: 12px;
@@ -2321,6 +2445,7 @@ body{
 
             }
             .hidden-p2 {
+                width: 140px;
                 display: flex;
                 font-family: "light";
                 font-size: 12px;
@@ -2333,6 +2458,7 @@ body{
                 display: none;
             }
             .hidden-p3 {
+                width: 145px;
                 display: flex;
                 font-family: "light";
                 font-size: 12px;
@@ -2343,22 +2469,23 @@ body{
             }
 
             .section9{
-                padding-left: 20px;
-                padding-right: 20px;
                 padding-top: 50px;
             }
             .digest{
+                max-width: 330px;
+                margin-inline: auto;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 background: none;
+                gap: 0;
             }
             .astro{
                 margin-left: 0;
             }
             .astro img{
-                width: 315px;
+                width: 100%;
                 height: 255px;
                 border-radius: 20px;
             }
@@ -2418,8 +2545,8 @@ body{
                 border-radius: 20px;
             }
             .footer{
-                padding-left: 20px;
-                padding-right: 20px;
+                max-width: 330px;
+                margin-inline: auto;
                 display: flex;
                 flex-direction: column;
                 justify-content: start;
@@ -2434,36 +2561,56 @@ body{
                 line-height: 35.2px;
                 text-align: left;
             }
+            .right-foot{
+                width:100%
+                ;
+            }
             .right-foot h5{
+                width: 430px;
                 margin: 0;
                 font-family:"space";
-                font-size: 22px;
+                font-size: 20px;
                 font-weight: 700;
                 line-height: 35.2px;
                 text-align: left;
             }
+            .right-foot p{
+            width: 400px;
+            font-family: "regular";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 2px;
+            text-align: left;
+            color: #CCCCCC;
+            }
             .email{
+                width: 100%;
                 display: flex;
                 flex-direction: column;
-                align-items: center;
-                justify-content: center;
             }
             .email input{
-                width: 335px;
+                max-width: 330px;
+                margin-inline: auto;
+                width: 330px;
                 height:46px;
                 gap: 12px;
                 border-radius: 20px;
-                padding-left: 15px;
+                padding-left: 0;
+            }
+            .email input::placeholder{
+                padding-left: 20px;
             }
             .email button{
                 margin-top: 20px;
-                width:350px;
+                width:100%
+                ;
                 height:46px;
                 border-radius: 20px;
             }
             .last{
-                padding-left: 20px;
-                padding-right: 20px;
+                max-width: 330px;
+                margin-left: auto;
                 padding-top: 20px;
             }
             
