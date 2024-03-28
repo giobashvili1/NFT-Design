@@ -2566,7 +2566,7 @@ body{
                 ;
             }
             .right-foot h5{
-                width: 430px;
+            
                 margin: 0;
                 font-family:"space";
                 font-size: 20px;
@@ -2575,7 +2575,6 @@ body{
                 text-align: left;
             }
             .right-foot p{
-            width: 400px;
             font-family: "regular";
             font-size: 14px;
             font-weight: 400;
