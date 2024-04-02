@@ -109,7 +109,15 @@ body{
     text-align: left;
     color: #FFFFFF;
 }
-.hero-text button{
+
+.hero-text button a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap:15px;
+}
+.hero-text button {
     width:224px;
     height:60px;
     gap: 12px;
