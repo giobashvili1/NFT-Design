@@ -136,6 +136,7 @@ body{
     padding-left: 20px;
     background: #2B2B2B;
     outline: none;
+    color: white;
 }
 .search img{
     position: absolute;
